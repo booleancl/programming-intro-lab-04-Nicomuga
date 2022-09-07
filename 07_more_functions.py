@@ -12,8 +12,10 @@ def chuchuwa(inst):
     time.sleep(1.5)
     print("compania")
     time.sleep(1.5)
-    
     print(inst)
+    time.sleep(1.)
+    print("Y!!!!")
+
 
 print(chuchuwa)
 print(type(chuchuwa))
@@ -25,6 +27,8 @@ print(type(chuchuwa))
 chuchuwa("Mano hacia el frente")
 time.sleep(2)
 chuchuwa("Hombro hacia atras")
+time.sleep(2)
+chuchuwa("Lengua afuera")
 time.sleep(2)
 
 result=chuchuwa("Lengua afuera")
