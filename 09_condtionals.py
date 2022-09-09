@@ -31,7 +31,7 @@ else:
 if gaby_age > Paolas_age:
     diff = Paolas_age - gaby_age
     if diff < 5:
-        print("Paola es menos que gaby por menos de 5 nos")
+        print("Paola es menor que gaby por menos de 5 nos")
     elif diff < 10:
         print("Paola es menor que gaby por menos de 10 ")
     else:

@@ -20,7 +20,22 @@ def super_sum(number):
         return number
     else:
         return number + super_sum(number - 1)
+       
 
 print (super_sum(10))
 
-        
+
+# Otra forma es crear una lista con un rango de caracteres para luego hacer iterar la lista. En est caso de 1 a 10, se escribe 11 porque el rango va de 1 a 11, ero no incluye el 11
+
+Total = 0
+for list_elem in range(1,11):
+    Total = Total + list_elem
+
+print(Total)
+
+
+# Recursion infinita, sin condicion de salida. Para nada util, pero entretenida.
+def infinite():
+    infinite()
+
+infinite()
