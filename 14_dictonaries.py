@@ -1,9 +1,9 @@
 #Similar alos arreglos, los diccionarios nos permiten estructurar informacion. Con la diferencia de que los elementos estan ordenados por llave y no por indice. Ejemplo
 
 my_car = {
-    'brand' : 'Mazda',
-    'model' : '5',
-    'year' : 2022,
+    'brand'   : 'Mazda',
+    'model'   : '5',
+    'year'    : 2022,
     'options' : ['5 puerta', 'Aire acondicionado', 'Frenos ABS'],
     'available' : True
 }
@@ -32,3 +32,7 @@ print(my_car['model'])
 my_car['color'] = 'silver'
 
 print(my_car)
+
+# Para imprimir de forma mas ordena hacia abajo en la consola preferir
+for key, value in my_car.items():
+    print(key, ' : ', value)
