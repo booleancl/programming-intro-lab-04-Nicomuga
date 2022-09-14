@@ -1,6 +1,6 @@
 import random
 
-opciones = ["piedra", "tijera", "papel"]
+options = ["piedra", "tijera", "papel"]
 
 print("Hola,juguemos cachipun")
 
@@ -9,13 +9,13 @@ print (1, "piedra")
 print (2, "tijera")
 print (3, "papel")
 
-mano1 = int(input("jugador1\n"))
-mano1_eleccion = opciones[mano1 - 1]
+user_input = int(input("jugador1\n"))
+user_option = options[user_input - 1]
 
-mano_computador = random.choice(opciones)
+computer_option = random.choice(options)
 
-print('Mi mano', mano1_eleccion)
-print("Mano computador:", mano_computador)
+print('Mi mano', user_option)
+print("Mano computador:", computer_option)
 
 if (mano1_eleccion == mano_computador):
     print("Empatan jugadores")
