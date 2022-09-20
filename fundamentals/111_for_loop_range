@@ -1,0 +1,3 @@
+#Cuando se agregan 3 elementos en el rango, el primer elemento hace referencia al inicio del rango (0), el segundo al numero posterior al final del rango (100 es igual a 99 y 111 es igual a 100) y el tercer numero hace referencia al intervalo que va a imprimir (25)
+for xc in range(0,101,25):
+  print(xc) 
