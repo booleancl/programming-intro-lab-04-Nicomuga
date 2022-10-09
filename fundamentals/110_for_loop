@@ -1,0 +1,25 @@
+
+#Cuando el 'break' viene antes del print, la palabra banana no se incluye en el print
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    break
+  print(x)
+  
+  #Si el 'break' viene despues del print la palabra banana se incluye en el print
+fruits = ["apple", "banana", "cherry"]
+for xy in fruits:
+  print(xy)
+  if xy == "banana":
+    break
+
+#En el ejemplo, la plabra banana no va a ser incluido en el print
+fruits = ["apple", "banana", "cherry"]
+for xyz in fruits:
+  if xyz == "banana":
+    continue
+  print(xyz)
+
+
+for xc in range(0,100,25):
+  print(xc) 
